@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMTP</title>
+</head>
+<body>
+    <h1 id="smtp">SMTP</h1>
+<table>
+<thead>
+<tr>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="#Defenitie">Defenitie</a></td>
+</tr>
+<tr>
+<td><a href="#Veiligheid">Veiligheid</a></td>
+</tr>
+<tr>
+<td><a href="#Gebruik">Gebruik</a></td>
+</tr>
+<tr>
+<td><a href="#Verschil">Verschil</a></td>
+</tr>
+<tr>
+<td><a href="SMPT1.md">Bronnen</a></td>
+</tr>
+</tbody>
+</table>
+
+<h4 id="smpt-simple-mail-transfer-protocol">SMPT : Simple Mail Transfer Protocol</h4>
+<h3 id="defenitie">Defenitie</h3>
+
+<p><strong>SMTP</strong> is een protocol dat gebrikt word voor het sturen en ontvangen van emails. Het wordt gebruikt door: Gmail, Outlook, Apple Mail en Yahoo Mail.</p>
+<blockquote>
+<p>Als <strong>SMTP</strong> niet zou bestaan, zou het emailsysteem ernstig verstoord worden. SMTP is het protocol dat verantwoordelijk is voor het verzenden en ontvangen van e-mails via internet. Zonder dit protocol zouden e-mails dus niet opq dezelfde manier kunnen worden verzonden of ontvangen.</p>
+</blockquote>
+<h3 id="veiligheid">Veiligheid</h3>
+<p><strong>SMTP</strong> speelt een grote rol in de veiligheid van het internet.
+BV: SMTP heeft ingebouwde mechanismen voor het detecteren en filteren van spam-e-mails. Dit helpt voorkomen dat ongewenste en mogelijk kwaadaardige e-mails de inbox van gebruikers bereiken. </p>
+<ul>
+<li><p>Spamfiltering: SMTP heeft ingebouwde mechanismen voor het detecteren en filteren van spam-e-mails. Deze mechanismen helpen voorkomen dat ongewenste en potentieel kwaadaardige e-mails de inbox van gebruikers bereiken. Door spam te identificeren en te blokkeren helpt SMTP de integriteit en veiligheid van e-mailcommunicatie te behouden.</p>
+</li>
+<li><p>Authenticatie en autorisatie: SMTP ondersteunt authenticatie- en autorisatiemechanismen om de identiteit van de afzender te verifiëren en ervoor te zorgen dat alleen geautoriseerde gebruikers e-mails kunnen verzenden. Dit helpt ongeautoriseerde toegang en misbruik van e-maildiensten te voorkomen.</p>
+</li>
+<li><p>Encryptie: SMTP ondersteunt encryptieprotocollen zoals Transport Layer Security (TLS) om de verzending van e-mails via internet te beveiligen. Door de communicatie tussen e-mailservers te versleutelen, helpt SMTP de vertrouwelijkheid en integriteit van e-mailinhoud te beschermen, waardoor ongeoorloofde onderschepping of manipulatie wordt voorkomen.</p>
+</li>
+<li><p>Betrouwbaarheid en foutafhandeling: SMTP omvat foutafhandelingsmechanismen om een ​​betrouwbare e-mailbezorging te garanderen. Het geeft feedback over de bezorgstatus, zodat     afzenders op de hoogte kunnen worden gesteld van eventuele problemen die zich voordoen tijdens het e-mailverzendingsproces. Dit helpt bij het identificeren en oplossen van potentiële problemen, waardoor de algehele betrouwbaarheid van e-mailcommunicatie wordt verbeterd.</p>
+</li>
+</ul>
+<h3 id="gebruik">Gebruik</h3>
+<p>Om <strong>SMTP</strong> te gebruiken, moet je de SMTP-serverinstellingen configureren in je e-mailclient of -toepassing. Deze instellingen omvatten het adres van de SMTP-server, de poort, het type beveiliging (indien van toepassing), de gebruikersnaam en het wachtwoord.</p>
+<p>Hier is een voorbeeld van SMTP-serverinstellingen voor Gmail:</p>
+<ul>
+<li>SMTP-server: smtp.gmail.com</li>
+<li>Poort: 587 (of 465 voor SSL/TLS)</li>
+<li>Beveiliging: STARTTLS (of SSL/TLS)</li>
+<li>Gebruikersnaam: jouw Gmail-e-mailadres</li>
+<li>Wachtwoord: jouw Gmail-wachtwoord</li>
+</ul>
+<p>Zodra de SMTP-serverinstellingen zijn geconfigureerd, kun je e-mails verzenden via de SMTP-server van je e-mailprovider. Dit kan worden gedaan met behulp van een e-mailclient zoals Microsoft Outlook, Apple Mail of Thunderbird, of via een programmeertaal zoals Python met behulp van een SMTP-bibliotheek.</p>
+<p>Hier is een voorbeeld van het verzenden van een e-mail met behulp van Python en de <code>smtplib</code>-bibliotheek:</p>
+<h3 id="verschil">Verschil</h3>
+<blockquote>
+<p><strong>SMTP</strong> wordt gebruikt voor het verzenden van e-mails, IMAP wordt gebruikt voor toegang tot e-mails op de server vanaf meerdere apparaten en POP3 wordt gebruikt voor het downloaden van e-mails van de server naar een apparaat.</p>
+</blockquote>
+<p><img src="img/smtp-protocol.png" alt="SMTP Diagram"></p>
+
+</body>
+</html>

@@ -1,0 +1,34 @@
+body {
+    width: 100vw;
+    height: 100vh;
+
+
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.sidebar {
+    width: 20%;
+    min-width: 130px;
+    max-width: 250px;
+    background-color: grey;
+    padding: 20px;
+}
+
+h1::first-letter{
+    color: blue;
+}
+
+h2:before {
+    content: "►";
+    color: blue;
+    margin-right: 5px;
+}
+
+a {
+    text-decoration: underline blue;
+    color: lightblue;
+}

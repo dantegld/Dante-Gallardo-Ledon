@@ -1,0 +1,90 @@
+@font-face {
+    font-family:'font1';
+    src: url(Fonts/KdamThmorPro-Regular.ttf);
+}
+@font-face {
+    font-family:'font2';
+    src: url(Fonts/NotoSansTC-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family:'font3';
+    src: url(Fonts/BebasNeue-Regular.ttf);
+}
+
+
+
+
+body {
+    background-color: beige;
+}
+a {
+    color:darkgrey;
+    text-decoration: none;
+    background-color: aliceblue;
+    border: solid 2px;
+    font-size: larger;
+    
+}
+a:hover {
+    transition: 0.4s;
+    cursor: pointer;
+}
+a:visited {
+    color:blanchedalmond;
+}
+button:hover {
+    transition: 0.4s;
+    font-size: medium;
+    cursor: pointer;
+    
+    
+}
+button {
+    border-radius: 20px;
+    border-width: 1px;
+}
+.Button1 {
+    font-family: 'font1';
+    background-color: antiquewhite;
+}
+.Button2 {
+    font-family: 'font2';
+    background-color: beige;
+}
+.button3{
+    font-family:'font3';
+    background-color: bisque;
+}
+
+.link1:hover {
+    cursor: not-allowed;
+    color:red;
+    text-decoration: wavy;
+}   
+.link2:hover {
+    color:brown;
+    text-decoration: underline;
+}
+.link3:hover {
+    color:darkkhaki;
+    text-decoration: double;
+    
+}
+.link1 {
+    background-color: antiquewhite;
+}
+.link2 {
+    background-color: beige;
+}
+.link3 {
+    background-color: bisque;
+}
+.Button1:hover {
+    background-color: bisque;
+}
+.Button2:hover {
+    background-color:antiquewhite ;
+}
+.button3:hover {
+    background-color:beige;
+}

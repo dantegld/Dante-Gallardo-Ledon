@@ -1,0 +1,40 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: rgb(39, 46, 50);
+    font-family: 'Lora', serif;
+    color: lightblue;
+}
+table {
+    
+    border-color: lightblue;
+    background-color: lightgray;
+    color: rgb(29, 172, 255);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    
+    
+}
+table a {
+    color: rgb(29, 172, 255);
+
+  
+}
+img {
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 20px;
+
+}
+iframe{
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 20px;
+
+}
+
+th {
+    font-weight: ;
+}

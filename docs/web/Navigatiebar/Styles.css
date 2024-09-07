@@ -1,0 +1,28 @@
+nav {
+    background-color: grey;
+    font-size: x-large;
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+    width: auto;
+    align-items: center;
+
+}
+a {
+    text-decoration: none;
+    color:darkgrey;
+    background-color:black;
+    width: fit-content;
+    height: max-content;
+}
+.Logo {
+    background-color: aqua;
+    border-radius:99px ;
+    height: 44px;
+    width: 44px;
+    text-align: center;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

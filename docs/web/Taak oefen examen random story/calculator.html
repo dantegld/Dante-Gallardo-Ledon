@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    <nav>
+        <div>
+            <span id="hamburger" class="hamburger">&#9776;</span>
+        </div>
+        
+        <div class="navjs">
+        <a class = "navbar" href="index.html">Home</a>
+        <a class = "navbar" href="dungeon.html">Dungeon</a>
+        <a class = "navbar" href="calculator.html">Calculator</a>
+    </div>
+    
+    </nav>
+    
+<div class="body1">
+    <div class="responsive">
+    <div id="priceForm">
+        <h2>Manufacturing</h2>
+        <label>Shirt: $</label>
+        <input type="number" id="shirt" placeholder="Manufacturing Price">
+        <br>
+        <label>Hoody: $</label>
+        <input type="number" id="hoody" placeholder="Manufacturing Price">
+        <br>
+        <h2>Shipping</h2>
+        <label>Shipping: $</label>
+        <input type="number" id="shipping" placeholder="Shipping Price">
+        <br>
+        <br>
+        <hr>
+        <h2>Selling price</h2>
+
+        <label>Shirt: $</label>
+        <input type="number" id="shirtSell" placeholder="Selling Price">
+        <br>
+        <label>Hoody: $</label>
+        <input type="number" id="hoodySell" placeholder="Selling Price"><br><br>
+
+        <h2>Target Profit</h2>
+        <label>Target Profit: $</label>
+        <input type="number" id="targetProfit" placeholder="Target Profit"><br><br>
+
+        <a id="startButton" href="#">Calculate</a><br>
+
+    </div>
+    <div class="verborgen" id="profit">
+        <h2>Shirt $<span id="shirtPrice"></span></h2>
+        <p id="shirtProfitColor">Shirt Profit: $<span  class="space" id="shirtProfit"></span></p>
+        <p id="shirtProfitShippingColor">Shirt Profit, with Shipping: $<span  class="space" id="shirtProfitShipping"></span></p>
+        <h2>Hoody $<span id="hoodyPrice"></span></h2>
+        <p id="hoodyProfitColor">Hoody Profit: $<span class="space" id="hoodyProfit"></span></p>
+        <p id="hoodyProfitShippingColor">Hoody Profit, with Shipping: $<span class="space" id="hoodyProfitShipping"></span></p>
+    </div>
+</div>
+</div>
+<script src="scriptCalc.js"></script>
+</body>
+</html>

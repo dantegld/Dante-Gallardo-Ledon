@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="libraries/aos.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Libraries</title>
+</head>
+<body>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="hamburger.html">Hamburger</a>
+        <a href="imageBlending.html">Image Blending</a>
+        <a href="lightBox.html">Lightbox</a>
+</nav>
+
+<div class="body2">
+    
+ <div class="homebox">
+<h1>Image Blending</h1>
+
+<div>
+<canvas id="canvas-image-blending"></canvas>
+</div><br>
+
+
+
+<h3>Stap 1</h3>
+<p>Download de granim.js file van https://sarcadass.github.io/granim.js/.</p>
+<h3>Stap 2</h3>
+<p>Link granim.js aan je project.</p>
+<code>
+  &lt;script src="libraries/granim.js"&gt;&lt;/script&gt;
+</code>
+<h3>Stap 3</h3>
+<p>Voeg de volgende code toe aan je script.js:</p>
+<code>
+    var granimInstance = new Granim({
+        element: '#canvas-image-blending',
+        direction: 'top-bottom',
+        isPausedWhenNotInView: true,
+        image : {
+            source: 'img/bg1.jpg',
+            blendingMode: 'multiply'
+        },
+        states : {
+            "default-state": {
+                gradients: [
+                    ['#29323c', '#485563'],
+                    ['#FF6B6B', '#556270'],
+                    ['#80d3fe', '#7ea0c4'],
+                    ['#f0ab51', '#eceba3']
+                ],
+                transitionSpeed: 7000
+            }
+        }
+      });
+</code>
+</div>
+
+
+
+
+
+
+<script src="libraries/aos.js"></script>
+<script src="libraries/granim.js"></script>
+<script src="script.js"></script>
+<script>AOS.init();</script>
+
+</div>
+</body>
+</html>

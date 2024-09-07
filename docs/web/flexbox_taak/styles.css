@@ -1,0 +1,28 @@
+body {
+    background-color: aquamarine;
+    width: 100vw;
+    height: 100vh;
+
+    /*flex*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kaart {
+    display: flex;
+    background-color: whitesmoke ;
+    width: 200px;
+    height: 300px;
+    border-radius: 20px;
+    padding: 8px;
+
+    flex-direction: row;
+    justify-content: space-around;
+}
+.J2 {
+    align-self: flex-end;
+}
+img {
+    width: 150px
+}

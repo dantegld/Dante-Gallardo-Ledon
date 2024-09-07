@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'font';
+    src: url(fonts/IMFellEnglishSC-Regular.ttf);
+}
+
+
+body {
+    height: 100vh;
+    width: 100vw;
+    font-family: 'font';
+    font-size: x-large;
+    background-image: url(img/BackG/yellow-wall-background-wallpaper-2560x1600_7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+h1 {
+    margin: 75px;
+    display: flex;
+    justify-self: flex-start;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+
+}
+
+.random-styling1 {
+    color: black;
+  }
+
+.random-styling2 {
+    color: black;
+  }
+  
+.verborgen {
+    display: none !important;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.frame {
+    display: flex;
+    align-self: flex-start;
+}
+.start {
+    display: flex;
+    align-self: flex-start;
+}
+.box {
+    padding: 5px;
+    box-shadow: 5px 5px 50px;
+}
+.boxes:hover {
+    cursor: pointer;
+}
