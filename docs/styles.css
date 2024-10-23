@@ -9,7 +9,7 @@ html {
 }
 
 a {
-  text-decoration: none;
+    color: black;
 }
 nav {
     z-index: 100000;
